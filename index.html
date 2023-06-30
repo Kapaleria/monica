@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introduction to Javascript</title>
+    
 </head>
 <body>
     <h3 id ="heading">My Javascript course</h3>
@@ -14,6 +15,20 @@
     </p></div>
     <!--comment-->
             <p>the girl fell down and broke her leg</p>
+
+            <button id="myButton" class="my-button">Click Me</button>
+
+             <script>
+             var button = document.getElementById("myButton");
+
+             button.addEventListener("click", function() {
+              // Generate a random color
+             var randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
+      
+            // Change the button's background color
+                button.style.backgroundColor = randomColor;
+    });
+  </script>
 
        <script>
 var y= 13 
