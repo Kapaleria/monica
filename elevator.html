@@ -80,7 +80,7 @@ default:
 
         var x=5;
         var y =10;
-        console.log(Monica(x,y))
+        console.log(Monica(x,y)) //calling a function
 
         var k =15669000;
         var m =100;
@@ -90,6 +90,26 @@ default:
             /**
              * (a,b)=>{return a*b}
              * */
+
+             //CLASSES, FUNCTIONS AND CONSTRUCTORS
+
+             class Shape{
+              constructor(height, width){ //make a constructor, helps to
+                //give a template for creating multiple objects
+                this.height = height;
+                this.width = width;
+              }
+              calcArea(){
+                  return this.height * this.width;
+              }
+             }
+              //creating objects
+             let square = new Shape (2,8);
+             let square2 = new Shape (23,9);
+             let sq = new Shape (67,8);
+
+             //HOW TO PRINT THE RESULT TO THE CONSOLE
+
 
     </script>
         
